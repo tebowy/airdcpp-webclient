@@ -43,8 +43,8 @@ endif()
 
 
 # OPTIONS
-#OPTION(ENABLE_NATPMP "Enable support for the NAT-PMP protocol via libnatpmp"
-#  ON)
+OPTION (ENABLE_NATPMP "Enable support for the NAT-PMP protocol via libnatpmp" ON)
+  
 #OPTION(ENABLE_TBB "Enable support of the TBB library to improve performance"
 #  ON)
 
